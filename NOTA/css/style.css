@@ -1,0 +1,188 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #deebe3f0;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+}
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0d6efd;
+}
+
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+
+#productos .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#productos .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#productos .card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+#productos .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+
+#registro form {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+#registro .form-label {
+    font-weight: bold;
+}
+
+#registro .btn {
+    background-color: #0d6efd;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+#registro .btn:hover {
+    background-color: #0a58ca;
+}
+
+
+#valores .row div img {
+    max-height: 100px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    background-color: #e9ecef;
+    padding: 1rem;
+}
+
+#valores .row div h5 {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+#whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgb(8, 215, 15);
+}
+
+
+
+#footer {
+    background-color: #000000;
+    color: #fff;
+}
+
+#footer .d-flex a {
+    transition: color 0.3s ease;
+}
+
+#footer .d-flex a:hover {
+    color: #0d6efd;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.modal-content {
+    border-radius: 8px;
+}
+
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+
+    .carousel-caption {
+        font-size: 0.9rem;
+    }
+}
